@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  text-align: center;
+}
+.field {
+  display: flex;
+  align-items: center;
+}
+.delete {
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
